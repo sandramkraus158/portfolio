@@ -32,7 +32,7 @@ p {
 .hero {
   background: var(--branding-color);
   color: var(--light-branding-color);
-  padding: 160px 10px;
+  padding: 100px 10px;
   text-align: center;
 }
 
@@ -100,7 +100,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 10px;
+  padding: 100px 10px;
   background: var(--light-branding-color);
   color: var(--branding-color);
 }
@@ -184,7 +184,7 @@ footer .email-link:hover {
     font-size: 36px;
   }
   .hero {
-    padding: 100px 20px;
+    padding: 100px 20px 60px 20px;
   }
   .projects h2 {
     font-size: 54px;
@@ -195,7 +195,7 @@ footer .email-link:hover {
   }
   .content-container {
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
   }
   .content h1 {
     font-size: 36px;
