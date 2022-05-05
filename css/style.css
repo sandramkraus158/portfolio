@@ -122,6 +122,10 @@ p {
   font-weight: bolder;
 }
 
+.color-me {
+  color: var(--branding-color) !important;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 64px;
@@ -138,6 +142,10 @@ p {
   }
   .content-container {
     text-align: center;
-    padding: 30px;
+    padding: 100px 20px;
+  }
+  .content h1 {
+    font-size: 36px;
+    line-height: 48px;
   }
 }
