@@ -16,6 +16,12 @@ h1 {
   font-size: 96px;
 }
 
+h4 {
+  color: var(--branding-color);
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+}
+
 p {
   color: var(--branding-color);
   font-size: 16px;
@@ -126,9 +132,56 @@ p {
   color: var(--branding-color) !important;
 }
 
+footer {
+  margin: 40px 0 0 0;
+}
+
+.border-contact {
+  border-radius: 4px;
+  border: 1px solid var(--accent-branding-color);
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+footer p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 27px;
+  color: var(--branding-color);
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 24px;
+  display: block;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--accent-branding-color);
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  background: url("/images/instagram.svg") no-repeat;
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.social-icon:hover {
+  background: url("/images/instagramhover.svg") no-repeat;
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 64px;
+  }
+  h4 {
+    font-size: 36px;
   }
   .hero {
     padding: 100px 20px;
@@ -147,5 +200,8 @@ p {
   .content h1 {
     font-size: 36px;
     line-height: 48px;
+  }
+  footer .email-link {
+    font-size: 16px;
   }
 }
